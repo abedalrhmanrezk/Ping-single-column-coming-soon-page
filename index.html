@@ -32,48 +32,56 @@
     <title>Frontend Mentor | Ping coming soon page</title>
   </head>
   <body>
-    <section>
-      <div><img src="./images/logo.svg" alt="" /></div>
+    <main>
+      <section>
+        <div><img src="./images/logo.svg" alt="" /></div>
+
+        <div>
+          <h1>We are launching <span>soon!</span></h1>
+
+          <p>Subscribe and get notified</p>
+        </div>
+
+        <form id="form" novalidate>
+          <div class="wrapper">
+            <div class="form-input">
+              <input
+                id="email"
+                type="email"
+                placeholder="Subscribe and get notified"
+              />
+              <p class="error-message" id="error-message"></p>
+            </div>
+            <button>Notify Me</button>
+          </div>
+        </form>
+      </section>
 
       <div>
-        <h1>We are launching <span>soon!</span></h1>
-
-        <p>Subscribe and get notified</p>
+        <img src="./images/illustration-dashboard.png" alt="" />
       </div>
 
-      <form id="form" novalidate>
-        <div class="wrapper">
-          <div class="form-input">
-            <input
-              id="email"
-              type="email"
-              placeholder="Subscribe and get notified"
-            />
-            <p class="error-message" id="error-message"></p>
-          </div>
-          <button>Notify Me</button>
-        </div>
-      </form>
-    </section>
+      <footer>
+        <ul>
+          <li>
+            <a href="#" aria-label="facebook">
+              <i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="twitter"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
 
-    <div>
-      <img src="./images/illustration-dashboard.png" alt="" />
-    </div>
-
-    <footer>
-      <ul>
-        <li>
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        </li>
-      </ul>
-
-      <p>&copy; Copyright Ping. All rights reserved.</p>
-    </footer>
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+    </main>
   </body>
 </html>
